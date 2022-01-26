@@ -1,4 +1,77 @@
+/* ============= start of header styling ============= */
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1F2937;
+  color: white;
+  margin: 0;
+}
+
+.header-title {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 12px;
+  margin-bottom: 50px;
+}
+
+.title-links ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
-  height: 30px;
+  height: 40px;
   width: auto;
 }
+
+.header-img {
+  height: 300px;
+  width: auto;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.header-content {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#sign-up {
+  align-self: flex-start;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 15px;
+  color: white;
+  background-color: #3882f6;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-column h1 {
+  margin: 0;
+}
+
+/* ============= end of header styling ============= */
+
