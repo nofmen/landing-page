@@ -1,6 +1,10 @@
 /* ============= start of header styling ============= */
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: stretch;
 }
 
 .header {
@@ -13,7 +17,7 @@ body {
 }
 
 .header-title {
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -47,7 +51,7 @@ a {
 }
 
 .header-content {
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -72,6 +76,113 @@ a {
 .header-column h1 {
   margin: 0;
 }
-
 /* ============= end of header styling ============= */
 
+/* ============= start of main content styling ============= */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box {
+  max-width: 200px;
+}
+
+.box img {
+  max-height: 250px;
+  max-width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.box p {
+  text-align: center;
+}
+/* ============= end of main content styling ============= */
+
+/* ============= start of quote section styling ============= */
+.quote {
+  background-color: lightgray;
+  padding: 25px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-flex {
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-content {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  margin: 0;
+  display: flex;
+}
+
+.quote-author {
+  align-self: flex-end;
+}
+/* ============= end of quote section styling ============= */
+
+/* ============= start of call to action section styling ============= */
+.call-to-action {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 20px;
+/*   max-width: 80%; */
+  margin: 75px 100px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+/*   align-items: center; */
+/*   align-self: center; */
+}
+
+.cta-flex {
+  padding: 50px 75px;
+  display: flex;
+  gap: 100px;
+  align-content: center;
+}
+
+.cta-title,
+.cta-para {
+  margin: 0;
+}
+
+#cta-sign-up {
+  align-items: flex-end;
+  border-radius: 8px;
+  padding: 8px;
+  min-width: 100px;
+  height: 40px;
+  background-color: #3882f6;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* ============= end of call to action section styling ============= */
+
+/* ============= start of footer styling ============= */
+.footer {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+}
+/* ============= end of footer styling ============= */
